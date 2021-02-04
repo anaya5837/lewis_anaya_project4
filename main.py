@@ -6,7 +6,7 @@ while True:
         pause(300)
         light.clear
         pause(300)
-    elif input.rotation(Rotation.PITCH) >= 1:
+    elif input.rotation(Rotation.PITCH) >= 2:
         light.set_all(light.rgb(0, 100, 100))
         pause(300)
         light.clear

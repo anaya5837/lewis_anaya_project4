@@ -5,7 +5,7 @@ while (true) {
         pause(300)
         light.clear
         pause(300)
-    } else if (input.rotation(Rotation.Pitch) >= 1) {
+    } else if (input.rotation(Rotation.Pitch) >= 2) {
         light.setAll(light.rgb(0, 100, 100))
         pause(300)
         light.clear
